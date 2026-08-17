@@ -1,0 +1,23 @@
+{
+  "description": "Centralized configuration for the Dashcam Restoration Project.",
+  "camera": {
+    "original_resolution": {
+      "width": 2592,
+      "height": 1944
+    }
+  },
+  "established_crops": {
+    "production_16_9": {
+      "crop_top_y": 222,
+      "crop_bottom_y": 1680,
+      "crop_x": 0,
+      "crop_width": 2592,
+      "aspect_ratio": "16:9",
+      "resolution": "2592x1458"
+    },
+    "reflection_rois": {
+      "description": "Normalized coordinates for the reflection ablation studies (V10).",
+      "A_Reflection_Strip": [0.81, 0.79, 0.97, 0.99]
+    }
+  }
+}
